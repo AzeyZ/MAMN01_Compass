@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    android:orientation="vertical"
+    tools:context=".AccelerometerActivity">
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X:" />
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y:"
+        android:layout_marginTop="30sp"/>
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z:"
+        android:layout_marginTop="30sp"/>
+    <TextView
+        android:id="@+id/textA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity = "center"
+        android:layout_marginTop="90sp"/>
+</LinearLayout>
